@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Downloader</title>
+</head>
+<body>
+    <div class="title">Image Downloader</div>
+    <div id="search_image">
+        <input type="text" id="search" class="input_box" placeholder="Search Image"/>
+        <input type="text" id="width" class="input_box" placeholder="Enter Width"/>
+        <input type="text" id="height" class="input_box" placeholder="Enter height"/>
+        <button onclick="get_image()">Get Image</button>
+    </div>
+    <img src="" alt="" id="image">
+    <button id="dwld_btn" onclick="download_image()">Download Image</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
