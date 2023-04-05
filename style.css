@@ -29,9 +29,6 @@ button{
     background-color: rgb(177 45 225);
     color:white;
  }
- body{
-    background-color: black;
- }
  #dwld_btn{
     display:none;
     margin-left:auto;

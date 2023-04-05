@@ -1,6 +1,6 @@
 var imageURL;
 function get_image() {
-  document.getElementById("image").src="loader.gif";
+  document.getElementById("image").src="https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif";
   let keyword = document.getElementById("search").value;
   let width = document.getElementById("width").value;
   let height = document.getElementById("height").value;
